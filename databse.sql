@@ -163,7 +163,7 @@ VALUES
 
 --query 1 solution 
 SELECT
-  *
+  match_id, fixture, base_ticket_price
 FROM
   matches
 WHERE
@@ -246,3 +246,12 @@ LIMIT
   2
 OFFSET
   1;
+
+
+
+
+
+
+
+
+
